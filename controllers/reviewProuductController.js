@@ -66,10 +66,10 @@ It seems there are some good points but also areas we can improve.
 We'd appreciate if you share suggestions with us to make your experience even better.\n\nBest regards.`
       );
     } 
-     else if (addReview.stars >= 5) {
+     else if (addReview.stars >= 4) {
       SendEmailToUser(
         email,
-        "Thank you for the 5 stars",
+        "Glad you liked it",
         `Hi ${getUser.username},\n\nThank you so much for your amazing review! 
 We're thrilled you had an excellent experience. 
 Your support motivates us to keep doing our best.\n\nBest wishes.`
